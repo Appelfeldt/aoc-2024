@@ -1,4 +1,4 @@
-module github.com/Appelfeldt/AoC-2024/01-historian-hysteria
+module github.com/appelfeldt/aoc-2024/01-historian-hysteria
 
 go 1.22.2
 
