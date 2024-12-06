@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	dst "github.com/Appelfeldt/AoC-2024/01-historian-hysteria/internal/distance"
+	solver "github.com/appelfeldt/aoc-2024/01-historian-hysteria/internal/solver"
 	"github.com/spf13/cobra"
 )
 
@@ -57,7 +57,7 @@ func command(cmd *cobra.Command, args []string) {
 		input = buffer.String()
 	}
 
-	distance, similarity := dst.Calculate(input)
+	distance, similarity := solver.Calculate(input)
 	fmt.Printf("Distance:\n%v\n", distance)
 	fmt.Printf("Similarity:\n%v\n", similarity)
 }
