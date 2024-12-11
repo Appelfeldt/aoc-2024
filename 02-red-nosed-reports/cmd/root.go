@@ -15,8 +15,8 @@ var BuildVersion string
 var rootCmd = &cobra.Command{
 	Use:     "aoc-2024-02 <filepath>",
 	Version: BuildVersion,
-	Short:   "aoc-2024-02 - ",
-	Long:    "aoc-2024-02 ",
+	Short:   "aoc-2024-02 - Calculates safe reports.",
+	Long:    "aoc-2024-02 calculates count of safe reports, with and without problem dampener.",
 	Args:    cobra.MaximumNArgs(1),
 	Run:     command,
 }
