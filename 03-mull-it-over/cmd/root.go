@@ -15,8 +15,8 @@ var BuildVersion string
 var rootCmd = &cobra.Command{
 	Use:     "aoc-2024-03 <filepath>",
 	Version: BuildVersion,
-	Short:   "aoc-2024-03 - ",
-	Long:    "aoc-2024-03 ",
+	Short:   "aoc-2024-03 - Parses and executes instructions",
+	Long:    "aoc-2024-03 parse and execute instructions from corrupted program memory",
 	Args:    cobra.MaximumNArgs(1),
 	Run:     command,
 }
